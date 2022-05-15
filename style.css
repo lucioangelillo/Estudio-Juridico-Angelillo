@@ -326,6 +326,17 @@ html {
 .bloqueClientes__Contenedor img {
     width: 150px;
 }
+.bloqueClientes__Contenedor Img:hover{  
+    animation: rotation 2s infinite linear}
+      @keyframes rotation {
+        from {
+          transform: rotatey(0deg);
+        }
+        to {
+          transform: rotatey(359deg);
+        }
+      }
+
 @media (max-width: 767px) {
     .bloqueClientes h2 {
         font-size: xx-large;
