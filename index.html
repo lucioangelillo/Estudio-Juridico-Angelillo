@@ -7,172 +7,164 @@
     <title>Estudio CS</title>
     <link rel="shortcut icon" href="imagenes/LOGO.png">
     <link rel="stylesheet" href="style.css">
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" 
+    crossorigin="anonymous">
 </head>
 <BODY>
-    <Div id="Contenedorsitio">
-        <header ID="Menu" class="bloqueMenu">
-            <!--MENU-->
-            <div class="bloqueMenu__logo">
-                <img src="imagenes/LOGO.png" ; alt="logo-estudio">
+    <nav id="menu" class="navbar navbar-expand-lg bg-light" style="background: linear-gradient(#0055FB, #00004660)">
+        <div  class="container d-flex"  >
+          <a class="navbar-brand me-auto" href="#" style="color: aliceblue;"  > 
+        <img src="imagenes\LOGO.png" alt="logo" width="80px"><strong>ESTUDIO CS</strong></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse flex-grow-0" id="navbarNavAltMarkup">
+            <div class="navbar-nav"  >
+              <a class="nav-link" href="index.html#Inicio"  >INICIO</a>
+              <a class="nav-link" href="index.html#Nosotros" >NOSOTROS</a>
+              <a class="nav-link" href="index.html#Servicios"  >SERVICIOS</a>
+              <a class="nav-link" href="index.html#Clientes"  >CLIENTES</a>
+              <a class="nav-link" href="index.html#Contacto"  >CONTACTO</a>
             </div>
-            <div class="bloqueMenu__estudio">
-                <h1>ESTUDIO CS</h1>
-            </div>
+          </div>
+        </div>
+      </nav>
+<!--INICIO-->
+      <section ID="Inicio" class="bloqueInicio">
+        <!--INICIO-->
+        <img src="imagenes/portada.jpg" alt="portada-estudio">
+        <h1>ESPECIALISTAS EN <BR>ACCIDENTES DE TRANSITO</h1>
+        <a href="index.html#Contacto"> CONTACTANOS </a>
+    </section>
+    <!--/INICIO-->
+    <section ID="Nosotros" class=" container mt-5 mb-5">
+        <h1 class="text-center">NOSOTROS </h1>
+        <div class="row mt-5">
+            <div class="col ps-0"> 
+            <img class="" src="imagenes\logo - nosotros.jpg" width="450px">
+        </div>
+        <div class="col mt-5">
+            <p><strong>
+                Somos un estudio juridico especializado en accidentes de transito. Realizamos un tratamiento
+                integral
+                del reclamo, brindando contencion y asesoramiento legal al asegurado desde el momento en que
+                tiene el
+                siniestro hasta que finalmente obtiene una resolucion por parte de la compañia del tercero
+                responsable.
+                Entendemos que se trata de un proceso que resulta tedioso y a la vez desconocido para el
+                asegurado, por
+                lo que es importante que pueda transitarlo con el asesoramiento adecuado para poder
+                sobrellevarlo de la
+                mejor manera y evitarse posibles sorpresas que puedan surgir.</strong></p>
+        </div>
+    </section>
+    <section class="container mt-5"  ID="Servicios">
+        <!--SERVICIOS-->
+        <h2 class="text-center"><strong>SERVICIOS</strong></h2>
+        <div class="row mt-5">
 
-            <div class="bloqueMenu__lista">
-                <nav>
-                    <ul>
-                        <li><a href="index.html#Inicio" ; 
-                        class="vinculos"> INICIO </a></li>
-                        <li><a href="index.html#Nosotros" ; 
-                        class="vinculos"> NOSOTROS </a></li>
-                        <li><a href="index.html#Servicios" ; 
-                        class="vinculos">SERVICIOS </a></li>
-                        <li><a href="index.html#Clientes" ; 
-                        class="vinculos"> CLIENTES </a></li>
-                        <li><a href="index.html#Contacto" ; 
-                        class="vinculos"> CONTACTO </a></li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
-        <section ID="Inicio" class="bloqueInicio">
-            <!--INICIO-->
-            <img src="imagenes/portada.jpg" alt="portada-estudio">
-            <h1>ESPECIALISTAS EN <BR>ACCIDENTES DE TRANSITO</h1>
-            <a href="index.html#Contacto"> CONTACTANOS </a>
-        </section>
-        <!--/INICIO-->
-        <section Id="Nosotros">
-            <!--NOSOTROS-->
-            <h2>NOSOTROS</h2>
-            <div class="bloqueNosotros">
-                <div ID="bloqueNosotros__imagen">
-                    <!--COLUMNA 1-->
-                    <img src="imagenes/logo - nosotros.jpg" alt="img.nosotros">
+             <!--COLUMNA 1-->
+            <div class="col">
+                <div>
+                    <img class="align-middle" src="imagenes/logo-contact.jpg" alt="img.contacto">
                 </div>
-                <div ID="bloqueNosotros__texto">
-                    <!--COLUMNA 2-->
-                    <P>
-                        Somos un estudio juridico especializado en accidentes de transito. Realizamos un tratamiento
-                        integral
-                        del reclamo, brindando contencion y asesoramiento legal al asegurado desde el momento en que
-                        tiene el
-                        siniestro hasta que finalmente obtiene una resolucion por parte de la compañia del tercero
-                        responsable.
-                        Entendemos que se trata de un proceso que resulta tedioso y a la vez desconocido para el
-                        asegurado, por
-                        lo que es importante que pueda transitarlo con el asesoramiento adecuado para poder
-                        sobrellevarlo de la
-                        mejor manera y evitarse posibles sorpresas que puedan surgir.
-                    </P>
+                <div>
+                    <P><strong> Integrado por un Staff de abogados especializados y capacitados para la emergencia que
+                        atienden las
+                        24 hs los 365 días del año para dar la contención, el asesoramiento y la orientación
+                        necesaria en el
+                        momento en que más se necesita.
+                    </strong></P>
                 </div>
             </div>
-        </section>
-        <!--/NOSOTROS-->
-        <section class="bloqueServicios" ID="Servicios">
-            <!--SERVICIOS-->
-            <h2>SERVICIOS</h2>
-            <div class="bloqueServicios__contenedor">
-                <div ID="bloqueServicios__uno">
-                    <!--COLUMNA 1-->
-                    <div class="bloqueServicios__imagen">
-                        <img src="imagenes/logo-contact.jpg" alt="img.contacto">
-                    </div>
-                    <div class="bloqueServicios__texto">
-                        <P> Integrado por un Staff de abogados especializados y capacitados para la emergencia que
-                            atienden las
-                            24 hs los 365 días del año para dar la contención, el asesoramiento y la orientación
-                            necesaria en el
-                            momento en que más se necesita.
-                        </P>
-                    </div>
+            <!--COLUMNA 2-->
+            <div class="col">
+                <div >
+                    <img class="align-middle" src="imagenes/logo-asesoramiento.jpg" alt="img.asesoramiento">
                 </div>
-                <div ID="bloqueServicios__dos">
-                    <!--COLUMNA 2-->
-                    <div class="bloqueServicios__imagen">
-                        <img src="imagenes/logo-asesoramiento.jpg" alt="img.asesoramiento">
-                    </div>
-                    <div class="bloqueServicios__texto">
-                        <P> Nuestro staff de Abogados ofrece la evaluación de su caso brindando asesoramiento legal a
-                            fin de
-                            establecer las alternativas de reclamo posibles a partir del análisis de los antecedentes.
-                        </P>
-                    </div>
-                </div>
-                <div ID="bloqueServicios__tres">
-                    <!--COLUMNA 3-->
-                    <div class="bloqueServicios__imagen">
-                        <img src="imagenes/logo-reclamo.jpg" alt="img.reclamo">
-                    </div>
-                    <div class="bloqueServicios__texto">
-                        <P> Brindamos servicios de reclamos de daños materiales y lesiones ante los responsables y/o las
-                            aseguradoras y/o empresas de transporte. Ofrecemos alternativas de reclamos con resultados
-                            eficientes y con un criterio de transparencia en el que nuestro cliente comparte el proceso
-                            y toma
-                            las decisiones con información precisa.
-                        </P>
-                    </div>
+                <div>
+                    <P><strong> Nuestro staff de Abogados ofrece la evaluación de su caso brindando asesoramiento legal a
+                        fin de
+                        establecer las alternativas de reclamo posibles a partir del análisis de los antecedentes.
+                    </strong></P>
                 </div>
             </div>
-        </section>
+            <!--COLUMNA 3-->
+            <div class="col">
+                <div>
+                    <img class="align-middle" src="imagenes/logo-reclamo.jpg" alt="img.reclamo">
+                </div>
+                <div >
+                    <P><strong> Brindamos servicios de reclamos de daños materiales y lesiones ante los responsables y/o las
+                        aseguradoras y/o empresas de transporte. Ofrecemos alternativas de reclamos con resultados
+                        eficientes y con un criterio de transparencia en el que nuestro cliente comparte el proceso
+                        y toma
+                        las decisiones con información precisa.
+                    </strong></P>
+                </div>
+            </div>
+        </div>
         <!--/SERVICIOS-->
-        <section ID="Clientes" class="bloqueClientes">
-            <!--CLIENTES-->
-            <h2>CLIENTES</h2>
-            <div class="bloqueClientes__Contenedor">
-                <img src="imagenes/clientes/1.png" alt="logo">
-                <img src="imagenes/clientes/galicia-2.png" alt="logo">
-                <img src="imagenes/clientes/3.png" alt="logo">
-                <img src="imagenes/clientes/4.png" alt="logo">
-                <img src="imagenes/clientes/5.png" alt="logo">
-                <img src="imagenes/clientes/6.png" alt="logo">
-                <img src="imagenes/clientes/7.png" alt="logo">
-                <img src="imagenes/clientes/8.png" alt="logo">
-                <img src="imagenes/clientes/9.png" alt="logo">
-                <img src="imagenes/clientes/10.png" alt="logo">
-                <img src="imagenes/clientes/11.png" alt="logo">
-                <img src="imagenes/clientes/12.png" alt="logo">
-                <img src="imagenes/clientes/13.png" alt="logo">
-                <img src="imagenes/clientes/14.jpg" alt="logo">
-                <img src="imagenes/clientes/15.png" alt="logo">
+   <!--CLIENTES-->
+        <section ID="Clientes" class="container mt-5">
+            <h2 class="text-center"><strong> CLIENTES </strong></h2>
+            <div class="row mt-5">
+                <img class="col-3" src="imagenes/clientes/1.png" alt="logo" width=150px>
+                <img class="col-3" src="imagenes/clientes/galicia-2.png" alt="logo" width=150px>
+                <img class="col-3" src="imagenes/clientes/3.png" alt="logo" width=150px>
+                <img class="col-3" src="imagenes/clientes/4.png" alt="logo" width=150px>
+                <img class="col-3" src="imagenes/clientes/5.png" alt="logo" width=150px>
+                <img class="col-3" src="imagenes/clientes/6.png" alt="logo" width=150px>
+                <img class="col-3" src="imagenes/clientes/7.png" alt="logo" width=150px>
+                <img class="col-3" src="imagenes/clientes/8.png" alt="logo" width=150px>
+                <img class="col-3" src="imagenes/clientes/9.png" alt="logo" width=150px>
+                <img class="col-3" src="imagenes/clientes/10.png" alt="logo" width=150px>
+                <img class="col-3" src="imagenes/clientes/11.png" alt="logo" width=150px>
+                <img class="col-3" src="imagenes/clientes/12.png" alt="logo" width=150px>
+                <img class="col-3" src="imagenes/clientes/13.png" alt="logo" width=150px>
+                <img class="col-3" src="imagenes/clientes/14.jpg" alt="logo" width=150px>
+                <img class="col-3" src="imagenes/clientes/15.png" alt="logo" width=150px>
             </div>
         </section>
-        <!--/CLIENTES-->
-        <section class="bloqueFinal" Id="Contacto">
-            <!--CONTACTO-->
-            <div class="bloquefinal__Contacto">
-                <!--columna 1-->
-                <h2>NUESTRA DIRECCION</h2>
-                <P>
-                    Juan N. Madero 1450 1°B <br>
-                    San Fernando, Buenos Aires <br>
-                    Republica Argentina
-                </P>
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3290.3906568038656!2d-58.56133328477466!3d-34.44222998050171!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bca56393c430ab%3A0x2f687ce8c97d1cf!2sJuan%20N.%20Madero%201450%2C%20B1646%20DXP%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1649815374180!5m2!1ses-419!2sar"
-                     style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-            <div class="bloqueFinal__Formulario">
-                <!--columna 2-->
-                <h2>CONTACTO</h2>
-                <form action="https://formspree.io/f/xgednlll" method="post">
-                    <label>APELLIDO Y NOMBRE</label> <br>
-                    <input type="text" name="apellido y nombre" value="" placeholder="Escriba su nombre aqui...."
-                        required><br />
-                    <label>TELEFONO</label><br>
-                    <input type="text" name="telefono" value="" placeholder="Escriba su telefono aqui...."
-                        required><br />
-                    <label>EMAIL</label><br>
-                    <input type="email" name="Email" value="" placeholder="Escriba su Email aqui...." required><br />
-                    <label>CONSULTA</label><br>
-                    <textarea name="consulta"></textarea> <br>
-                    <button type="submit"> ENVIAR</button>
-                </form>
-            </div>
-        </section>
-    </Div>
+    <!--/CLIENTES-->
+    <!--CONTACTO-->
+<section class="container mt-5" Id="Contacto" style="background-color: #C4C4C4" width="100%">
+    <div class="row">
+    <div class="col ps-2,5">
+        <!--columna 1-->
+        <h2><strong> DIRECCION </strong></h2>
+        <P><strong>
+            Juan N. Madero 1450 1°B <br>
+            San Fernando, Buenos Aires <br>
+            Republica Argentina
+        </strong></P>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3290.3906568038656!2d-58.56133328477466!3d-34.44222998050171!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bca56393c430ab%3A0x2f687ce8c97d1cf!2sJuan%20N.%20Madero%201450%2C%20B1646%20DXP%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1649815374180!5m2!1ses-419!2sar"
+             style="border:0; width: 350px; height: 250px" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div class="col">
+        <!--columna 2-->
+        <h2><strong>CONTACTO</strong></h2>
+        <form action="https://formspree.io/f/xgednlll" method="post" >
+        <label class="form-label">APELLIDO Y NOMBRE</label> <br>
+        <input class="form-control" type="text" name="apellido y nombre" value="" placeholder="Escriba su nombre aqui...."
+            required><br />
+        <label class="form-label">TELEFONO</label><br>
+        <input class="form-control" type="text" name="telefono" value="" placeholder="Escriba su telefono aqui...."
+            required><br />
+            <label class="form-label">EMAIL</label><br>
+            <input class="form-control" type="email" name="Email" value="" placeholder="Escriba su Email aqui...." required><br />
+        <label for="Consulta" class="form-label">Consulta</label>
+            <textarea class="form-control" ></textarea> <BR>
+            <button type="button" class="btn btn-primary">ENVIAR</button>
+        </form>
+    </div>
+</div>
+</section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" 
+    crossorigin="anonymous"></script>
 </BODY>
 </html>
