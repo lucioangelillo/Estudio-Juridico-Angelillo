@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Estudio CS</title>
     <link rel="shortcut icon" href="imagenes/LOGO.png">
     <link rel="stylesheet" href="style.css">
-
 </head>
+
 <BODY>
     <Div id="Contenedorsitio">
         <header ID="Menu" class="bloqueMenu">
@@ -23,29 +24,25 @@
             <div class="bloqueMenu__lista">
                 <nav>
                     <ul>
-                        <li><a href="index.html#Inicio" ; 
-                        class="vinculos"> INICIO </a></li>
-                        <li><a href="index.html#Nosotros" ; 
-                        class="vinculos"> NOSOTROS </a></li>
-                        <li><a href="index.html#Servicios" ; 
-                        class="vinculos">SERVICIOS </a></li>
-                        <li><a href="index.html#Clientes" ; 
-                        class="vinculos"> CLIENTES </a></li>
-                        <li><a href="index.html#Contacto" ; 
-                        class="vinculos"> CONTACTO </a></li>
+                        <li><a href="index.html#Inicio" ; class="vinculos"> INICIO </a></li>
+                        <li><a href="index.html#Nosotros" ; class="vinculos"> NOSOTROS </a></li>
+                        <li><a href="index.html#Servicios" ; class="vinculos">SERVICIOS </a></li>
+                        <li><a href="index.html#Clientes" ; class="vinculos"> CLIENTES </a></li>
+                        <li><a href="index.html#Contacto" ; class="vinculos"> CONTACTO </a></li>
                     </ul>
                 </nav>
             </div>
         </header>
+
+        <!--INICIO-->
         <section ID="Inicio" class="bloqueInicio">
-            <!--INICIO-->
             <img src="imagenes/portada.jpg" alt="portada-estudio">
             <h1>ESPECIALISTAS EN <BR>ACCIDENTES DE TRANSITO</h1>
             <a href="index.html#Contacto"> CONTACTANOS </a>
         </section>
         <!--/INICIO-->
+        <!--NOSOTROS-->
         <section Id="Nosotros">
-            <!--NOSOTROS-->
             <h2>NOSOTROS</h2>
             <div class="bloqueNosotros">
                 <div ID="bloqueNosotros__imagen">
@@ -71,8 +68,8 @@
             </div>
         </section>
         <!--/NOSOTROS-->
+        <!--SERVICIOS-->
         <section class="bloqueServicios" ID="Servicios">
-            <!--SERVICIOS-->
             <h2>SERVICIOS</h2>
             <div class="bloqueServicios__contenedor">
                 <div ID="bloqueServicios__uno">
@@ -118,8 +115,8 @@
             </div>
         </section>
         <!--/SERVICIOS-->
+        <!--CLIENTES-->
         <section ID="Clientes" class="bloqueClientes">
-            <!--CLIENTES-->
             <h2>CLIENTES</h2>
             <div class="bloqueClientes__Contenedor">
                 <img src="imagenes/clientes/1.png" alt="logo">
@@ -140,8 +137,8 @@
             </div>
         </section>
         <!--/CLIENTES-->
+        <!--CONTACTO-->
         <section class="bloqueFinal" Id="Contacto">
-            <!--CONTACTO-->
             <div class="bloquefinal__Contacto">
                 <!--columna 1-->
                 <h2>NUESTRA DIRECCION</h2>
@@ -152,7 +149,7 @@
                 </P>
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3290.3906568038656!2d-58.56133328477466!3d-34.44222998050171!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bca56393c430ab%3A0x2f687ce8c97d1cf!2sJuan%20N.%20Madero%201450%2C%20B1646%20DXP%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1649815374180!5m2!1ses-419!2sar"
-                     style="border:0;" allowfullscreen="" loading="lazy"
+                    style="border:0;" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
             <div class="bloqueFinal__Formulario">
@@ -169,10 +166,11 @@
                     <input type="email" name="Email" value="" placeholder="Escriba su Email aqui...." required><br />
                     <label>CONSULTA</label><br>
                     <textarea name="consulta"></textarea> <br>
-                    <button type="submit"> ENVIAR</button>
+                    <button ID="botonformulario" type="submit"> ENVIAR</button>
                 </form>
             </div>
         </section>
     </Div>
 </BODY>
+
 </html>

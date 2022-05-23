@@ -3,11 +3,13 @@
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 html {
     scroll-behavior: smooth;
     max-width: 100%;
-    overflow-x:hidden;
+    overflow-x: hidden;
 }
+
 #Contenedorsitio {
     display: grid;
     grid-template-areas:
@@ -22,6 +24,7 @@ html {
     grid-template-rows: 2% 20% 20% 20% 20% 18%;
     width: 100vw;
 }
+
 /* BLOQUE MENU INICIO */
 #Menu {
     grid-area: nav
@@ -37,40 +40,55 @@ html {
     top: 0px;
     z-index: 1;
     max-height: 80px;
+
 }
+
 .bloqueMenu__logo {
     width: 5%
 }
+
 .bloqueMenu__logo img {
     padding-bottom: 40px;
     width: 80px
 }
+
 .bloqueMenu .bloqueMenu__estudio {
     width: 15%;
 }
+
 .bloqueMenu__estudio h1 {
     white-space: pre;
-    padding-top: 15px
+    padding-top: 15px;
+    text-shadow: 1px 1px black;
 }
+
 .bloqueMenu .bloqueMenu__lista {
     width: 80%;
-    padding-top: 25px;
+    padding-top: 20px;
     text-align: right;
     padding-right: 25px;
 }
+
 .bloqueMenu .bloqueMenu__lista nav ul li {
     list-style: none;
     text-decoration: none;
     color: aliceblue;
     display: inline-block
 }
+
 .bloqueMenu .bloqueMenu__lista ul li a {
     padding-left: 10px;
     text-decoration: none;
     color: aliceblue;
     font-size: large;
     font-weight: bold;
+    text-shadow: 1px 1px black;
 }
+
+.bloqueMenu .bloqueMenu__lista ul li a:hover {
+    color: #f3f3f360
+}
+
 @media (max-width: 767px) {
     .bloqueMenu {
         background: linear-gradient(#0055FB, #00004660);
@@ -83,54 +101,60 @@ html {
         z-index: 1;
         max-height: 80px;
     }
-    
+
     .bloqueMenu__logo {
         width: 15%
     }
-    
+
     .bloqueMenu__logo img {
         padding-bottom: 50px;
         width: 80px
     }
-    
+
     .bloqueMenu .bloqueMenu__estudio {
         width: 80%;
     }
-    
+
     .bloqueMenu__estudio h1 {
         white-space: pre;
         padding-top: 15px;
         text-align: center;
     }
-    
+
     .bloqueMenu .bloqueMenu__lista {
         display: none;
     }
-    
 }
+
+
 /* BLOQUE MENU FINAL*/
 /*--------------------------------------------------------------------------------------*/
 /*BLOQUE INICIO*/
 #Inicio {
     grid-area: Inicio
 }
+
 .bloqueInicio {
     position: relative;
     width: 100%;
 }
+
 .bloqueInicio img {
     width: 100%;
     height: 700px;
     display: block
 }
+
 .bloqueInicio H1 {
     font-size: xx-large;
     position: absolute;
     bottom: 290px;
     left: 64px;
     padding: 16px;
-    color: rgb(255, 251, 251)
+    color: rgb(255, 251, 251);
+    text-shadow: 1px 1px black;
 }
+
 .bloqueInicio a {
     position: absolute;
     bottom: 220px;
@@ -141,16 +165,21 @@ html {
     text-decoration: none;
     color: aliceblue;
     font-weight: bolder;
+    text-shadow: 1px 1px black;
 }
+
 .bloqueInicio a:hover {
-    background-color: white;
+    background-color: #00004660;
+
 }
+
 /*BLOQUE INICIO FINAL*/
 /*--------------------------------------------------------------------------------------*/
 /*BLOQUE NOSOTROS */
 #Nosotros {
     grid-area: Nosotros
 }
+
 #Nosotros h2 {
     padding-top: 200px;
     font-size: xx-large;
@@ -158,6 +187,7 @@ html {
     font-weight: bolder;
 
 }
+
 .bloqueNosotros {
     display: flex;
     flex-direction: row;
@@ -165,11 +195,13 @@ html {
     width: 100%;
     padding-top: 50px;
 }
+
 #bloqueNosotros__imagen img {
     width: 450px;
     padding-left: 25px;
     padding-top: 45px
 }
+
 #bloqueNosotros__texto p {
     font-weight: bold;
 
@@ -186,6 +218,7 @@ html {
         text-align: center;
         font-weight: bolder;
     }
+
     .bloqueNosotros {
         display: flex;
         flex-direction: column-reverse;
@@ -193,12 +226,14 @@ html {
         width: 100%;
         padding-top: 50px;
     }
+
     #bloqueNosotros__texto p {
         font-weight: bold;
         text-align: center;
         padding-top: 50px;
 
     }
+
     #bloqueNosotros__imagen img {
         text-align: center;
         width: 350px;
@@ -206,19 +241,22 @@ html {
 
     }
 }
+
 /*BLOQUE NOSOTROS FINAL*/
 /*------------------------------------------------------------------------------------------------*/
 /*BLOQUE SERVICIOS*/
 #Servicios {
     grid-area: Servicios
 }
+
 .bloqueServicios h2 {
     text-align: center;
     padding-top: 75px;
     font-size: xx-large;
     font-weight: bolder
 }
- .bloqueServicios__contenedor {
+
+.bloqueServicios__contenedor {
     width: 100%;
     padding-top: 50px;
     margin-bottom: 50px;
@@ -229,16 +267,19 @@ html {
     font-weight: bold;
     padding-right: 15px;
 }
+
 .bloqueServicios__imagen {
     justify-content: center;
 }
+
 #bloqueServicios__uno {
     display: flex;
- flex-direction: column;
+    flex-direction: column;
     width: 33%;
     text-align: center;
     padding-left: 25px
 }
+
 #bloqueServicios__dos {
     display: flex;
     flex-direction: column;
@@ -247,6 +288,7 @@ html {
     margin-left: 15px;
     margin-right: 15px
 }
+
 #bloqueServicios__tres {
     display: flex;
     flex-direction: column;
@@ -254,8 +296,9 @@ html {
     text-align: center;
     padding-right: 25px;
 }
+
 @media (max-width: 767px) {
-    
+
     .bloqueServicios__contenedor {
         max-width: 100%;
         display: flex;
@@ -263,10 +306,11 @@ html {
         font-weight: bold;
         justify-content: center;
         padding-top: 0px;
-    margin-bottom: 0px;
-    padding-right: 5px;
-    padding-left: 5px
-} 
+        margin-bottom: 0px;
+        padding-right: 5px;
+        padding-left: 5px
+    }
+
     .bloqueServicios h2 {
         text-align: center;
         font-size: xx-large;
@@ -274,39 +318,44 @@ html {
         padding-top: 0px;
         margin-bottom: 50px;
     }
+
     #bloqueServicios__uno {
         display: flex;
-     flex-direction: column;
-        width: 100%;    
+        flex-direction: column;
+        width: 100%;
         justify-content: center;
         padding-left: 0px;
-        
-        
+
+
     }
+
     #bloqueServicios__dos {
         display: flex;
         flex-direction: column;
         width: 100%;
         text-align: center;
         margin-left: 0px;
-     margin-right: 0px;
-     padding-right: 5px;
+        margin-right: 0px;
+        padding-right: 5px;
     }
+
     #bloqueServicios__tres {
         margin-left: 5px;
         display: flex;
         flex-direction: column;
         width: 100%;
         text-align: center;
-        padding-right: 0px; 
+        padding-right: 0px;
     }
- }
+}
+
 /*BLOQUE SERVICIOS FINAL*/
 /*--------------------------------------------------------------------------------------*/
 /*BLOQUE CLIENTES */
 #Clientes {
     grid-area: Clientes
 }
+
 .bloqueClientes h2 {
     font-size: xx-large;
     text-align: center;
@@ -315,6 +364,7 @@ html {
     padding-top: 75px;
     margin-bottom: 90px;
 }
+
 .bloqueClientes__Contenedor {
     padding-left: 50px;
     display: grid;
@@ -323,19 +373,24 @@ html {
     grid-template-rows: repeat(3, 1fr);
     max-width: 100%;
 }
+
 .bloqueClientes__Contenedor img {
     width: 150px;
 }
-.bloqueClientes__Contenedor Img:hover{  
-    animation: rotation 2s infinite linear}
-      @keyframes rotation {
-        from {
-          transform: rotatey(0deg);
-        }
-        to {
-          transform: rotatey(359deg);
-        }
-      }
+
+.bloqueClientes__Contenedor Img:hover {
+    animation: rotation 2s infinite linear
+}
+
+@keyframes rotation {
+    from {
+        transform: rotatey(0deg);
+    }
+
+    to {
+        transform: rotatey(359deg);
+    }
+}
 
 @media (max-width: 767px) {
     .bloqueClientes h2 {
@@ -343,9 +398,10 @@ html {
         text-align: center;
         font-weight: bolder;
         text-align: center;
-    padding-top: 200px;
-    margin-bottom: 5px;
-}  
+        padding-top: 200px;
+        margin-bottom: 5px;
+    }
+
     .bloqueClientes__Contenedor {
         padding-left: 10px;
         display: grid;
@@ -355,16 +411,19 @@ html {
         max-width: 100%;
         margin-top: 0px;
     }
+
     .bloqueClientes__Contenedor img {
         width: 100px;
     }
 }
+
 /*BLOQUE CLIENTES FINAL*/
 /*--------------------------------------------------------------------------------------*/
 /*BLOQUE CONTACTO*/
 #Contacto {
     grid-area: Contacto
 }
+
 .bloqueFinal {
     padding-top: 60px;
     padding-bottom: 20px;
@@ -375,30 +434,47 @@ html {
     flex-direction: row;
     justify-content: space-between;
 }
+
 .bloqueFinal {
     font-weight: bolder
 }
+
 .bloqueFinal .bloquefinal__Contacto {
     width: 40%;
     text-align: center;
 }
+
 .bloqueFinal .bloquefinal__Contacto p {
     line-height: 20pt
 }
+
 .bloqueFinal .bloquefinal__Contacto iframe {
-    width: 400px; height: 250px;
+    width: 400px;
+    height: 250px;
 }
+
 .bloqueFinal__Formulario {
     width: 60%;
     padding-left: 200px;
 }
+
 .bloqueFinal__Formulario input {
     width: 400px;
 }
+
 .bloqueFinal__Formulario textarea {
     width: 400px;
     height: 200px;
 }
+
+#botonformulario {
+    background-color: #0055FB;
+    border-radius: 30px;
+    padding: 16px 40px;
+    color: aliceblue;
+    text-shadow: 1px 1px black;
+}
+
 @media (max-width: 767px) {
     .bloqueFinal {
         padding-top: 0px;
@@ -408,35 +484,43 @@ html {
         font-weight: bolder;
         display: flex;
         flex-direction: column;
-        
+
     }
+
     .bloqueFinal {
         font-weight: bolder
     }
+
     .bloqueFinal .bloquefinal__Contacto {
         width: 100%;
         text-align: center;
     }
+
     .bloqueFinal .bloquefinal__Contacto p {
         line-height: 20pt
     }
+
     .bloqueFinal .bloquefinal__Contacto iframe {
         width: 200px;
         height: 125px;
     }
+
     .bloqueFinal__Formulario {
         width: 100%;
         text-align: center;
         padding-left: 10px;
         padding-right: 10px;
-        
+
     }
+
     .bloqueFinal__Formulario input {
         width: 300px;
     }
+
     .bloqueFinal__Formulario textarea {
         width: 300px;
         height: 150px;
     }
 }
+
 /*BLOQUE CONTACTO FINAL */
