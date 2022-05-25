@@ -1,0 +1,207 @@
+/*MENU*/
+@media (max-width: 767px) {
+    .bloqueMenu {
+        background: linear-gradient(#0055FB, #00004660);
+        display: flex;
+        flex-direction: row;
+        color: aliceblue;
+        width: 100%;
+        position: sticky;
+        top: 0px;
+        z-index: 1;
+        max-height: 80px;
+
+        .bloqueMenu__lista {
+            display: none;
+        }
+
+        .bloqueMenu__logo {
+            width: 15%;
+
+            .img {
+                padding-bottom: 50px;
+                width: 80px;
+            }
+        }
+
+        .bloqueMenu__estudio {
+            width: 80%;
+
+            h1 {
+                white-space: pre;
+                padding-top: 15px;
+                text-align: center;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+/*Nosotros*/
+
+@media (max-width: 767px) {
+    #Nosotros h2 {
+        padding-top: 40px;
+        font-size: xx-large;
+        text-align: center;
+        font-weight: bolder;
+    }
+
+    .bloqueNosotros {
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+        width: 100%;
+        padding-top: 50px;
+
+        .bloqueNosotros__texto p {
+            font-weight: bold;
+            text-align: center;
+            padding-top: 50px;
+
+            #bloqueNosotros__imagen img {
+                text-align: center;
+                width: 350px;
+                padding-right: 20px;
+            }
+        }
+    }
+}
+
+
+
+
+/*Servicios*/
+@media (max-width: 767px) {
+    .bloqueServicios {
+        h2 {
+            text-align: center;
+            font-size: xx-large;
+            font-weight: bolder;
+            padding-top: 0px;
+            margin-bottom: 50px;
+        }
+
+        .bloqueServicios__contenedor {
+            max-width: 100%;
+            display: flex;
+            flex-direction: column;
+            font-weight: bold;
+            justify-content: center;
+            padding-top: 0px;
+            margin-bottom: 0px;
+            padding-right: 5px;
+            padding-left: 5px;
+
+            .bloqueServicios__uno {
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                justify-content: center;
+                padding-left: 0px;
+            }
+
+            .bloqueServicios__dos {
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                text-align: center;
+                margin-left: 0px;
+                margin-right: 0px;
+                padding-right: 5px;
+            }
+
+            .bloqueServicios__tres {
+                margin-left: 5px;
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                text-align: center;
+                padding-right: 0px;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+/*Clientes*/
+@media (max-width: 767px) {
+    .bloqueClientes {
+        h2 {
+            font-size: xx-large;
+            text-align: center;
+            font-weight: bolder;
+            text-align: center;
+            padding-top: 200px;
+            margin-bottom: 5px;
+        }
+    }
+
+    .bloqueClientes__Contenedor {
+        padding-left: 10px;
+        display: grid;
+        width: 100%;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        max-width: 100%;
+        margin-top: 0px;
+
+        img {
+            width: 100px;
+        }
+    }
+}
+
+
+/*Contacto*/
+@media (max-width: 767px) {
+    .bloqueFinal {
+        padding-top: 0px;
+        padding-bottom: 0px;
+        margin-top: 0px;
+        background-color: #C4C4C4;
+        font-weight: bolder;
+        display: flex;
+        flex-direction: column;
+
+        .bloquefinal__Contacto {
+            width: 100%;
+            text-align: center;
+
+            p {
+                line-height: 20pt;
+
+                iframe {
+                    width: 200px;
+                    height: 125px;
+                }
+            }
+        }
+
+        .bloqueFinal__Formulario {
+            width: 100%;
+            text-align: center;
+            padding-left: 10px;
+            padding-right: 10px;
+
+            input {
+                width: 300px;
+
+                textarea {
+                    width: 300px;
+                    height: 150px;
+                }
+            }
+        }
+    }
+}

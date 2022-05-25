@@ -1,0 +1,50 @@
+* {
+    Margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+#Contenedorsitio {
+    display: grid;
+    grid-template-areas:
+        "nav"
+        "Inicio"
+        "Nosotros"
+        "Servicios"
+        "Clientes"
+        "Contacto"
+    ;
+    grid-template-columns: 100%;
+    grid-template-rows: 2% 20% 20% 20% 20% 18%;
+    width: 100vw;
+
+    #Menu {
+        grid-area: nav
+    }
+
+    #Inicio {
+        grid-area: Inicio
+    }
+
+    #Nosotros {
+        grid-area: Nosotros
+    }
+
+    #Servicios {
+        grid-area: Servicios
+    }
+
+    #Clientes {
+        grid-area: Clientes
+    }
+
+    #Contacto {
+        grid-area: Contacto
+    }
+}

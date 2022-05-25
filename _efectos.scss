@@ -1,0 +1,27 @@
+.bloqueMenu {
+    .bloqueMenu__lista {
+        ul {
+            li {
+                a:hover {
+                    color: #f3f3f360
+                }
+            }
+        }
+    }
+}
+
+.bloqueClientes__Contenedor{
+ Img:hover {
+    animation: rotation 2s infinite linear
+}
+
+@keyframes rotation {
+    from {
+        transform: rotatey(0deg);
+    }
+
+    to {
+        transform: rotatey(359deg);
+    }
+}
+}
