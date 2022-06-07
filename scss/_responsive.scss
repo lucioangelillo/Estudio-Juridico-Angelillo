@@ -1,4 +1,5 @@
-/*MENU*/
+/*-------RESPONSIVE--------*/
+/*Menu*/
 @media (max-width: 767px) {
     .bloqueMenu {
         background: linear-gradient(#0055FB, #00004660);
@@ -37,6 +38,45 @@
 }
 
 
+/*Inicio*/
+@media (max-width: 767px) {
+.bloqueInicio {
+    position: relative;
+    width: 100%;
+
+    img {
+        width: 100%;
+        height: 700px;
+        display: block;
+    }
+
+    H1 {
+        font-size: xx-large;
+            position: absolute;
+            bottom: 450px;
+            left: 64px;
+            padding: 16px;
+            color: #fffbfb;
+            text-shadow: 1px 1px black; }
+
+    a {
+        position: absolute;
+            bottom: 375px;
+            left: 65px;
+            background: linear-gradient(#0055FB, #00004660);
+            border-radius: 30px;
+            padding: 32px 80px;
+            text-decoration: none;
+            color: aliceblue;
+            font-weight: bolder;
+            text-shadow: 1px 1px black; }
+    }
+
+    a:hover {
+        background-color: #00004660;
+    }
+}
+
 
 
 
@@ -44,7 +84,6 @@
 
 
 /*Nosotros*/
-
 @media (max-width: 767px) {
     #Nosotros h2 {
         padding-top: 40px;
@@ -63,16 +102,17 @@
         .bloqueNosotros__texto p {
             font-weight: bold;
             text-align: center;
-            padding-top: 50px;
+            padding-top: 50px;}
 
-            #bloqueNosotros__imagen img {
-                text-align: center;
+            .bloqueNosotros__imagen img  {
                 width: 350px;
-                padding-right: 20px;
+               text-align: center;
+                 padding-left: 0px;
+                padding-top: 10px;
             }
         }
     }
-}
+
 
 
 
@@ -102,7 +142,7 @@
             .bloqueServicios__uno {
                 display: flex;
                 flex-direction: column;
-                width: 100%;
+                width: 97%;
                 justify-content: center;
                 padding-left: 0px;
             }
@@ -110,7 +150,7 @@
             .bloqueServicios__dos {
                 display: flex;
                 flex-direction: column;
-                width: 100%;
+                width: 97%;
                 text-align: center;
                 margin-left: 0px;
                 margin-right: 0px;
@@ -121,7 +161,7 @@
                 margin-left: 5px;
                 display: flex;
                 flex-direction: column;
-                width: 100%;
+                width: 97%;
                 text-align: center;
                 padding-right: 0px;
             }
@@ -138,6 +178,7 @@
 @media (max-width: 767px) {
     .bloqueClientes {
         h2 {
+            margin-top: 25px;
             font-size: xx-large;
             text-align: center;
             font-weight: bolder;
@@ -196,12 +237,11 @@
 
             input {
                 width: 300px;
-
+            }
                 textarea {
                     width: 300px;
-                    height: 150px;
+          height: 100px
                 }
             }
         }
     }
-}
