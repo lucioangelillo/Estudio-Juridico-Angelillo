@@ -333,7 +333,7 @@ html {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(5, 1fr);
     max-width: 100%;
-    margin-top: 0px; }
+    margin-top: 10px; }
     .bloqueClientes__Contenedor img {
       width: 100px; }
   /*CONTACTO*/
