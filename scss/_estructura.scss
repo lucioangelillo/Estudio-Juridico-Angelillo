@@ -1,72 +1,10 @@
 /* BLOQUE MENU INICIO */
+#menu{background: linear-gradient(#023db1, #023db1);
 
-
-.bloqueMenu {
-    background: linear-gradient(#0055FB, #00004660);
-    display: flex;
-    flex-direction: row;
-    color: aliceblue;
-    width: 100%;
-    position: sticky;
-    top: 0px;
-    z-index: 1;
-    max-height: 80px;
-
-    .bloqueMenu__logo {
-        width: 5%;
-
-        img {
-            padding-bottom: 40px;
-            width: 80px
-        }
-    }
-
-    .bloqueMenu__estudio {
-        width: 15%;
-
-        h1 {
-            white-space: pre;
-            padding-top: 15px;
-            text-shadow: 1px 1px black;
-        }
-    }
-
-    .bloqueMenu__lista {
-        width: 80%;
-        padding-top: 20px;
-        text-align: right;
-        padding-right: 25px;
-
-        nav {
-            ul {
-                li {
-                    list-style: none;
-                    text-decoration: none;
-                    color: aliceblue;
-                    display: inline-block;
-
-                    a {
-                        padding-left: 10px;
-                        text-decoration: none;
-                        color: aliceblue;
-                        font-size: large;
-                        font-weight: bold;
-                        text-shadow: 1px 1px black;
-                    }
-
-                    a:hover {
-                        color: #f3f3f360
-                    }
-                }
-            }
-        }
-    }
+ a {color: aliceblue;}
+ 
+.logomenu {width: 80px;}
 }
-
-
-
-
-
 /* BLOQUE MENU FINAL*/
 /*--------------------------------------------------------------------------------------*/
 /*BLOQUE INICIO*/
@@ -96,7 +34,7 @@
         position: absolute;
         bottom: 220px;
         left: 64px;
-        background: linear-gradient(#0055FB, #00004660);
+        background-color: #023db1;
         border-radius: 30px;
         padding: 32px 80px;
         text-decoration: none;
@@ -160,6 +98,7 @@
 
 .bloqueServicios {
     h2 {
+        margin-top: 100px;
         text-align: center;
         padding-top: 75px;
         font-size: xx-large;
@@ -169,14 +108,14 @@
 
 .bloqueServicios__contenedor {
     width: 100%;
-    padding-top: 50px;
-    margin-bottom: 50px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: baseline;
     font-weight: bold;
     padding-right: 15px;
+
+    h3 {font-size:large; color: grey;font-weight: bold;}
 
     .bloqueServicios__uno {
         display: flex;
@@ -213,17 +152,17 @@
 
 .bloqueClientes {
     h2 {
+        margin-top: 100px;
         font-size: xx-large;
         text-align: center;
         font-weight: bolder;
         text-align: center;
-        padding-top: 75px;
-        margin-bottom: 90px;
+        
     }
 }
 
 .bloqueClientes__Contenedor {
-    padding-left: 50px;
+    padding-left: 100px;
     display: grid;
     width: 100%;
     grid-template-columns: repeat(5, 1fr);
@@ -264,6 +203,7 @@
     justify-content: space-between;
 
     .bloquefinal__Contacto {
+        padding-top: 40px;
         width: 40%;
         text-align: center;
 
@@ -276,12 +216,21 @@
             width: 400px;
             height: 250px;
         }
+        h2 {font-size: x-large;
+  text-align: center;
+  font-weight: bolder;
+  text-align: center;
     }
+}
 
     .bloqueFinal__Formulario {
-
+        padding-top: 40px;
         width: 60%;
         padding-left: 200px;
+
+        label{
+            margin-top: 10px;
+        }
 
         input {
             border-color: black;
@@ -295,6 +244,9 @@
             width: 400px;
             height: 150px;
         }
+        h2 {font-size: x-large;
+            font-weight: bolder;
+            }
     }
 
     #botonformulario {
